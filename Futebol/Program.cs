@@ -1,6 +1,5 @@
 ﻿using Futebol;
 using System.Data.SqlClient;
-using System.Runtime.CompilerServices;
 
 Banco conn = new Banco();
 SqlConnection conexaoSql = new SqlConnection(conn.Caminho());
